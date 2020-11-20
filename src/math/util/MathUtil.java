@@ -18,8 +18,8 @@ public class MathUtil {
      */
     public static void main(String[] args) {
         long expected = 120;
-        long expactual = MathUtility.getFactorial(5);
-        System.out.println("5!");
+        long actual = MathUtility.getFactorial(5);   
+        System.out.println(actual);
     }
     
 }
